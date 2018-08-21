@@ -12,7 +12,7 @@ class Project
       break
     else 
       @backers << some_backer
-      some_backer.
+      some_backer.back_project
   end 
     
   
