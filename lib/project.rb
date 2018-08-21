@@ -8,7 +8,11 @@ class Project
   end 
   
   def add_backer(some_backer)
-    @backers << some_backer
+    if @backers.any? {|x| x == some_backer}
+      break
+    else 
+      @backers << some_backer
+      some_backer.
   end 
     
   
