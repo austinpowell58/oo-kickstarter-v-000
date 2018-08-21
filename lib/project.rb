@@ -9,6 +9,7 @@ class Project
   
   def add_backer(some_backer)
     if @backers.any? {|x| x == some_backer}
+      "You're already here."
       break
     else 
       @backers << some_backer
