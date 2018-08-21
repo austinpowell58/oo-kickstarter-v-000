@@ -13,6 +13,7 @@ class Project
     else 
       @backers << some_backer
       some_backer.back_project(self)
+    end 
   end 
     
   
